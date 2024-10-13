@@ -104,11 +104,13 @@ footer{
 
 .DropDown:hover .DropDownContent{
   display: block;
+  height: 5%;
   }
   
   .DropDown:hover a{
    background-color: white;
    color: green;
+   
   }
   
   .DropDowmMenuItem:hover{

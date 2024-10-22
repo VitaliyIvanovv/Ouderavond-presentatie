@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+header {
+    background-color: #3b704f; 
+    color: white; 
+    padding: 10px 0;
+    text-align: center;
+    background-image:url(img/Techniek-College-Rotterdam-Logo.png);
+    background-repeat: no-repeat;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #4CAF50; 
+    border-radius: 5px; 
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; 
+}
+
+.location {
+    margin-bottom: 40px;
+    background-color: #fff; 
+    border-radius: 10px; 
+    padding: 15px; 
+    border: 2px solid #9acd32; 
+}
+
+.location h3 {
+    color: #4CAF50;
+}
+
+.location img {
+    max-width: 12vw;
+    height: auto;
+    border-radius: 5px; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #3b704f; 
+    color: white; 
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #45a049;
+}

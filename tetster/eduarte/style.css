@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #90EE90;
+    
+}
+
+header {
+    background-color: #006400;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    
+}
+
+.logo img {
+    width: 50px;
+    vertical-align: middle;
+    
+}
+
+.header-text h1 {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+
+.about-app {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-app h2 {
+    color: #006400;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-app p, .about-app ul {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.about-app ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.about-app li::before {
+    content: "✔️";
+    color: #006400;
+    margin-right: 10px;
+}
+
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.block {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.block:hover {
+    transform: scale(1.05);
+}
+
+
+.cijfers {
+    background-color: yellowgreen;
+}
+
+.rooster {
+    background-color: #006400;
+}
+
+.aanwezigheid {
+    background-color: yellowgreen;
+    
+  
+}
+.img{
+    width: 13vw;
+    height: 20vh;
+}
+
+footer{
+    background-color: aliceblue;
+}
+.footerimg{
+    height: 15vh;
+}
+.footer-link a {
+    text-decoration: none;
+    color: green; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-link a:hover {
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block {
+        margin: 10px 0;
+        width: 100%;
+    }
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    
+    
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+   
+}
+
+.back-button:hover {
+    background-color: lightgreen;
+}

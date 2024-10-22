@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    display: block;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu span {
+    margin-left: 20px;
+}
+
+.menu {
+    margin-left: 20px;
+    background-color: #1a472a;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 4px;
+}
+
+.facilities-banner {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.facilities-banner h1 {
+    margin: 0;
+}
+
+.facilities-info {
+    background-color:white;
+    padding: 20px;
+    text-align: left;
+    flex-grow: 1;
+    font-size: 1em;
+}
+
+.facilities-info h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.facilities-info ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.facilities-info ol {
+    margin-left: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;  
+    padding: 20px 0;
+    color: white;
+    width: 100%;
+    position: relative;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section li a {
+    color: white;
+    text-decoration: none;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.back-button:hover {
+    background-color: #388e3c;
+    transition: background-color 0.3s;
+}
+
